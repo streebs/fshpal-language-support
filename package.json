@@ -1,0 +1,25 @@
+{
+  "name": "fshpal-language-support",
+  "displayName": "FSHPAL Language Support",
+  "description": "adds simple syntax highlighting for FSHPAL",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "fshpal",
+      "aliases": ["FSHPAL", "fshpal"],
+      "extensions": [".BAS", ".FIL"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "fshpal",
+      "scopeName": "source.BAS",
+      "path": "./syntaxes/fshpal.tmLanguage.json"
+    }]
+  }
+}
