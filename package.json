@@ -9,6 +9,10 @@
   "categories": [
     "Programming Languages"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/streebs/fshpal-language-support"
+  },
   "contributes": {
     "languages": [{
       "id": "fshpal",
