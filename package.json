@@ -14,11 +14,12 @@
     "type": "git",
     "url": "https://github.com/streebs/fshpal-language-support"
   },
+  "icon": "./logos/logo.png",
   "contributes": {
     "languages": [{
       "id": "fshpal",
       "aliases": ["FSHPAL", "fshpal"],
-      "extensions": [".BAS", ".FIL"],
+      "extensions": [".BAS", ".FIL", ".INC", ".BK!"],
       "configuration": "./language-configuration.json",
       "icon": {
         "light": "./logos/logo-small.png",
