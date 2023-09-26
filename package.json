@@ -2,7 +2,7 @@
   "name": "fshpal-language-support",
   "displayName": "FSHPAL Language Support",
   "description": "adds simple syntax highlighting for FSHPAL",
-  "version": "0.0.2",
+  "version": "1.0",
   "publisher": "streebs",
   "engines": {
     "vscode": "^1.81.0"
